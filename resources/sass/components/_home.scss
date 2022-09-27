@@ -1,0 +1,31 @@
+.home{
+  background: $color-pink-deg-1;
+  display: flex;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+}
+
+.home__container{
+  text-align: center;
+}
+
+.home__container h3{
+  font-size: 1rem;
+}
+
+.home__container h1, .home__container h3{
+  margin:30px 0;
+}
+
+.home__container a{
+  background-color: $color-white-1;
+  -webkit-box-shadow: $shadow-1;
+  -moz-moz-box-shadow: $shadow-1;
+  box-shadow: $shadow-1;
+  -webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+  padding: 10px;
+  color: $color-gray-1;
+}
