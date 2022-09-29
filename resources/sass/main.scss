@@ -11,12 +11,16 @@
 
 @import 'components/navbar';
 @import 'components/home';
+@import 'components/lo_que_hago';
+@import 'components/servicios';
+@import 'components/sobre_mi';
+@import 'components/tarifas';
 
 
 body{
   background: $color-white-1;
   color: white;
-  font-family: $tg-helvetica-light;
+  font-family: $tg-roboto;
 }
 
 section{
@@ -43,6 +47,16 @@ li{
   list-style: none;
 }
 
+h1{
+  font-family: $tg-helvetica-light;
+  font-size: 3rem;
+  margin-bottom: 50px;
+}
+
+p{
+  font-size:1rem;
+}
+
 .myContainer{
   margin: auto;
   max-width: 1200px;
@@ -54,6 +68,14 @@ li{
   border-radius:4px;
   background-color: transparent;
   color:white;
+  transition: all .2s;
+}
+
+.btn2{
+  border-radius:4px;
+  background-color: $color-pink-dark;
+  color:$color-white-1;
+  padding: 10px;
   transition: all .2s;
 }
 

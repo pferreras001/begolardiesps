@@ -1,0 +1,52 @@
+.lo_que_hago{
+  position: relative;
+}
+
+.lo_que_hago__container{
+  background: transparent;
+  color: $color-gray-1;
+}
+
+.lo_que_hago__container p{
+  text-align: justify;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.lo_que_hago__container span{
+  color:$color-pink-dark;
+}
+
+.lo_que_hago img{
+  position: absolute;
+  right: 0;
+  top:0;
+  width: 100%;
+  z-index:-1;
+}
+
+@media #{$breakpoints-medium} {
+
+.lo_que_hago{
+  background: linear-gradient(to left, rgba(255,255,255,0)0% , rgba(255,255,255,1)60%), url("/img/lo_que_hago/background.jpg") no-repeat right; 
+}
+
+
+.lo_que_hago__container p{
+  text-align: justify;
+  margin:0 0;
+  width: 60%;
+}
+
+}
+
+@media #{$breakpoints-large} {
+
+
+
+}
+
+
+@media #{$breakpoints-xlarge} {
+
+}
