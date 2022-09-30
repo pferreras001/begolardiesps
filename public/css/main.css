@@ -281,7 +281,7 @@ nav ul.dropdown-list {
 }
 
 .home {
-  background: linear-gradient(106deg, rgb(217, 165, 208) 53%, rgb(238, 196, 231) 100%);
+  background: linear-gradient(to right, #D9A5D0 0%, #EEC4E7 70%, rgb(255, 255, 255) 100%), no-repeat left;
   display: flex;
   height: 500px;
   align-items: center;
@@ -298,16 +298,6 @@ nav ul.dropdown-list {
 
 .home__container h1, .home__container h3 {
   margin: 30px 0;
-}
-
-.home__container a {
-  background-color: #FFFFFF;
-  -webkit-box-shadow: 8px 8px 22px -6px rgba(0, 0, 0, 0.75);
-  -moz-moz-box-shadow: 8px 8px 22px -6px rgba(0, 0, 0, 0.75);
-  box-shadow: 8px 8px 22px -6px rgba(0, 0, 0, 0.75);
-  border-radius: 5px;
-  padding: 10px;
-  color: #A2A0A0;
 }
 
 .lo_que_hago {
@@ -430,7 +420,9 @@ nav ul.dropdown-list {
 
 @media only screen and (min-width: 1025px) {
   .sobre_mi {
-    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 30%, rgb(255, 255, 255) 52%), url("/img/sobre_mi/background.jpg") no-repeat left;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 72%), url("/img/sobre_mi/background.jpg") no-repeat left;
+    background-size: cover;
+    height: 2000px;
   }
 
   .sobre_mi h1 {
@@ -439,7 +431,8 @@ nav ul.dropdown-list {
 
   .sobre_mi p {
     margin-left: 50%;
-    width: 550px;
+    width: 539px;
+    font-size: 1.5rem;
   }
 }
 .tarifas h1 {
@@ -503,6 +496,192 @@ nav ul.dropdown-list {
     width: 33.3333333333%;
   }
 }
+.section__contacto {
+  margin: 0;
+  margin-bottom: -100px;
+}
+
+.contacto__form {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 100px;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%), url("/img/contacto/background.jpg") no-repeat;
+  background-size: cover;
+}
+
+.contacto__form__left {
+  text-align: center;
+  width: 100%;
+}
+
+.contacto__form__left form {
+  margin: auto;
+  width: 100%;
+}
+
+.contacto__form form input, .contacto__form form textarea, .contacto__form form button {
+  margin-top: 60px;
+}
+
+.contacto__form form input, .contacto__form form textarea {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: 0;
+  margin: inherit auto;
+  padding: 10px;
+  width: 90%;
+}
+
+.contacto__form form textarea {
+  height: 314px;
+}
+
+.contacto__form__right {
+  display: flex;
+  width: 100%;
+  margin-bottom: 40px !important;
+}
+
+.contacto__form button {
+  border: 0;
+}
+
+.contacto__form__right h1 {
+  align-self: center;
+  color: #FFFFFF;
+  font-size: 53px;
+  margin: 50px auto;
+  text-align: center;
+  width: 90%;
+}
+
+.contacto__telefono {
+  display: flex;
+  background: url("/img/contacto/telefono_background-s.png") no-repeat;
+  background-size: cover;
+  height: 812px;
+  margin-top: 100px;
+}
+
+.contacto__telefono h1 {
+  align-self: center;
+  font-size: 53px;
+  margin: auto;
+  text-align: center;
+  width: 90%;
+}
+
+.contacto__maps {
+  border: 0;
+  height: 612px;
+  position: relative;
+}
+
+.contacto__maps__info {
+  position: absolute;
+  right: 20px;
+  z-index: 5;
+}
+
+.contacto__yellow_box {
+  background: #D9A5D0;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 10px;
+  width: 319px;
+}
+
+.contacto__yellow_box ul {
+  margin: 0;
+}
+
+.contacto__maps iframe {
+  height: 100%;
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .contacto__telefono h1 {
+    width: 75%;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .contacto__form {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .contacto__form__right {
+    margin-bottom: 0px;
+    width: 50%;
+  }
+
+  .contacto__form__right h1 {
+    margin: auto;
+    text-align: center;
+  }
+
+  .contacto__form__left {
+    font-size: 1rem;
+    text-align: left;
+    width: 50%;
+  }
+
+  .contacto__form__left form {
+    width: 400px;
+  }
+
+  .contacto__form form input, .contacto__form form textarea {
+    width: 314px;
+  }
+
+  .contacto__telefono {
+    background: url("/img/contacto/telefono_background.png") no-repeat;
+    background-size: cover;
+  }
+
+  .contacto__telefono h1 {
+    margin-left: 150px;
+    text-align: left;
+    width: 602px;
+  }
+}
+.footer {
+  background: linear-gradient(to top, #D9A5D0 30%, rgb(255, 255, 255) 80%), no-repeat left;
+}
+
+.footer__container {
+  align-items: center;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  row-gap: 50px;
+}
+
+.footer__container ul {
+  text-align: center;
+}
+
+.footer__container .icon {
+  width: 300px;
+}
+
+@media only screen and (min-width: 1025px) {
+  .footer {
+    background: linear-gradient(to right, #D9A5D0 0%, #EEC4E7 50%, rgb(255, 255, 255) 72%), no-repeat left;
+  }
+
+  .footer__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer__container ul {
+    text-align: left;
+  }
+}
 body {
   background: #FFFFFF;
   color: white;
@@ -549,11 +728,11 @@ p {
   width: 100%;
 }
 
-.btn {
-  border-color: white;
+.btn1 {
   border-radius: 4px;
-  background-color: transparent;
-  color: white;
+  background-color: #FFFFFF;
+  color: #A2A0A0;
+  padding: 10px;
   transition: all 0.2s;
 }
 
@@ -563,9 +742,4 @@ p {
   color: #FFFFFF;
   padding: 10px;
   transition: all 0.2s;
-}
-
-.btn:hover {
-  background-color: white;
-  color: black;
 }

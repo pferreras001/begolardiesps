@@ -1,0 +1,48 @@
+.footer{
+  background: linear-gradient(to top, $color-pink-dark 30% , rgba(255,255,255,1)80%), no-repeat left;
+}
+
+.footer__container{
+  align-items:center;
+  display: flex;
+  flex-direction:column-reverse;
+  justify-content: space-between;
+  row-gap: 50px;
+}
+
+.footer__container ul{
+  text-align: center;
+}
+
+.footer__container .icon{
+  width: 300px;
+}
+
+@media #{$breakpoints-medium} {
+
+
+
+}
+
+@media #{$breakpoints-large} {
+
+.footer{
+  background: linear-gradient(to right, $color-pink-dark 0%, $color-pink-light 50% , rgba(255,255,255,1)72%), no-repeat left;
+}
+
+.footer__container{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+
+.footer__container ul{
+  text-align: left;
+}
+
+}
+
+
+@media #{$breakpoints-xlarge} {
+
+}

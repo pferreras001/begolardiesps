@@ -21,7 +21,10 @@
 @media #{$breakpoints-large} {
 
 .sobre_mi{
-  background: linear-gradient(to right, rgba(255,255,255,0)0%, rgba(255,255,255,0)30% , rgba(255,255,255,1)52%), url("/img/sobre_mi/background.jpg") no-repeat left;
+  background: linear-gradient(to right, rgba(255,255,255,0)0% , rgba(255,255,255,1)72%), url("/img/sobre_mi/background.jpg") no-repeat left;
+  background-size: cover;
+  height:2000px;
+
 }
 
 .sobre_mi h1{
@@ -30,7 +33,8 @@
 
 .sobre_mi p{
   margin-left: 50%;
-  width: 550px;
+  width: 539px;
+  font-size: 1.5rem;
 }
 
 }

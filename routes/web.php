@@ -14,3 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'App\Http\Controllers\PagesController@inicio')->name('inicio');
+Route::get('/contacto', 'App\Http\Controllers\PagesController@contacto')->name('contacto');
+
+Route::post('/contacto', 'App\Http\Controllers\PagesController@enviar_contacto')->name('contacto');
