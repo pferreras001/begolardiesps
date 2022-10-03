@@ -647,6 +647,19 @@ nav ul.dropdown-list {
     width: 602px;
   }
 }
+.login__section form {
+  margin-top: 100px;
+  min-height: 60vh;
+}
+
+.login__section input {
+  margin-bottom: 10px;
+}
+
+.login__section a {
+  color: #A2A0A0 !important;
+}
+
 .footer {
   background: linear-gradient(to top, #D9A5D0 30%, rgb(255, 255, 255) 80%), no-repeat left;
 }
@@ -722,6 +735,14 @@ p {
   font-size: 1rem;
 }
 
+input, textarea {
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: 1px #A2A0A0 solid;
+  padding: 10px;
+}
+
 .myContainer {
   margin: auto;
   max-width: 1200px;
@@ -729,6 +750,7 @@ p {
 }
 
 .btn1 {
+  border: 0;
   border-radius: 4px;
   background-color: #FFFFFF;
   color: #A2A0A0;
@@ -737,9 +759,15 @@ p {
 }
 
 .btn2 {
+  border: 0;
   border-radius: 4px;
   background-color: #D9A5D0;
   color: #FFFFFF;
   padding: 10px;
   transition: all 0.2s;
+}
+
+.btn1, .btn2:hover {
+  cursor: pointer;
+  opacity: 0.6;
 }

@@ -33,6 +33,17 @@
             <li class="{{ (Request::route()->getName()=='galeria') ? 'active' : '' }}">
               <a href=""><?php require('svg/telephone.svg')?></a>
             </li>
+            @auth
+            <li class="{{ (Request::route()->getName()=='galeria') ? 'active' : '' }}">
+              <form action="{{ route('logout') }}" method="post">
+                  @csrf
+                    @method('put')
+                     <button class="btn2 nav__btn">Cerrar Sesión</button>
+                </form>
+            @else
+
+            @endif 
+            </li>
         </ul>
     </div>
 </nav>

@@ -16,6 +16,7 @@
 @import 'components/sobre_mi';
 @import 'components/tarifas';
 @import 'components/contacto';
+@import 'components/login';
 @import 'components/footer';
 
 
@@ -59,6 +60,14 @@ p{
   font-size:1rem;
 }
 
+input, textarea{
+  border-radius:5px;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  border: 1px $color-gray-1 solid;
+  padding:10px;
+}
+
 .myContainer{
   margin: auto;
   max-width: 1200px;
@@ -66,6 +75,7 @@ p{
 }
 
 .btn1{
+  border:0;
   border-radius:4px;
   background-color: $color-white-1;
   color:$color-gray-1;
@@ -74,9 +84,15 @@ p{
 }
 
 .btn2{
+  border:0;
   border-radius:4px;
   background-color: $color-pink-dark;
   color:$color-white-1;
   padding: 10px;
   transition: all .2s;
+}
+
+.btn1, .btn2:hover{
+  cursor: pointer;
+  opacity:.6;
 }

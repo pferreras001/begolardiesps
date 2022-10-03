@@ -22,6 +22,10 @@ class PagesController extends Controller
     return view('contacto');
   }
 
+  public function admin(){
+    return view('login');
+  }
+
   public function enviar_contacto(Request $req){
     $correo= new contactoMailable($req->input('email'),$req->input('asunto'),$req->input('mensaje'));
     Mail::to('info@begolardiespsicologia.com')->send($correo);
