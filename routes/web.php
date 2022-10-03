@@ -31,3 +31,13 @@ Route::post('/recover_password', 'App\Http\Controllers\UserController@send_recov
 Route::get('/recover_form/{id}', 'App\Http\Controllers\UserController@recover_form')->name('recover_form');
 Route::post('/update_pass', 'App\Http\Controllers\UserController@update_pass')->name('update_pass');
 Route::put('/logout', 'App\Http\Controllers\UserController@logout')->name('logout');
+
+//rutas para el blog
+Route::get('/blog', 'App\Http\Controllers\BlogController@blog')->name('blog');
+Route::post('/blog', 'App\Http\Controllers\BlogController@blog_search')->name('blog');
+Route::get('/create_entry', 'App\Http\Controllers\BlogController@create_entry')->name('create_entry');
+Route::post('/insert_entry', 'App\Http\Controllers\BlogController@insert_entry')->name('insert_entry');
+Route::get('/show_entry/{id}', 'App\Http\Controllers\BlogController@show_entry')->name('show_entry');
+Route::get('/edit_entry/{id}', 'App\Http\Controllers\BlogController@edit_entry')->name('edit_entry');
+Route::post('/edit_entry', 'App\Http\Controllers\BlogController@update_entry')->name('update_entry');
+Route::get('/delete_entry/{id}', 'App\Http\Controllers\BlogController@delete_entry')->name('delete_entry');

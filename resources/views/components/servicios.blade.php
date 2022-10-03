@@ -1,4 +1,4 @@
-<section class="section servicios">
+<section class="section servicios" id="servicios">
   <div class="servicios__container container">
     <h1>Servicios.</h1>
     <div class="servicios__boxes">
@@ -7,7 +7,7 @@
         <p>Es habitual que los padres observen rabietas y enfados en sus hijos. Sin
 embargo, si estas persisten en el tiempo más de lo esperado y tienen una intensidad llamativa, no
 dudes en contactar conmigo para comenzar a trabajar la forma en la que gestiona sus emociones. </p>
-        <a class="btn2" href="">Pedir cita</a>
+        <a class="btn2" href="{{ route('contacto') }}">Pedir cita</a>
       </div>
       <div class="servicios__box servicios__box__2">
         <h2>Ansiedad infantil.</h2>
@@ -23,7 +23,7 @@ y adolescentes. El hecho de que no sean capaces de alcanzar el nivel de rendimie
 para su edad puede deberse a muchos factores, por lo que deberemos indagar en aquellas causas
 por las que el menor no es capaz de alcanzar el rendimiento esperado para comenzar a solucionar
 esta problemática.</p>
-        <a class="btn2" href="">Pedir cita</a>
+        <a class="btn2" href="{{ route('contacto') }}">Pedir cita</a>
       </div>
       <div class="servicios__box servicios__box__4">
         <h2>Depresión.</h2>
@@ -31,7 +31,7 @@ esta problemática.</p>
 complicadas y tienen momentos de tristeza e irritabilidad. Si bien es cierto que todas las personas
 nos hemos senEdo así en algún momento determinado, deberemos atender a si esas señales se
 dan con una frecuencia e intensidad más elevada de lo habitual. </p>
-        <a class="btn2" href="">Pedir cita</a>
+        <a class="btn2" href="{{ route('contacto') }}">Pedir cita</a>
       </div>
       <div class="servicios__box servicios__box__5">
         <h2>Miedos y fobias.</h2>
@@ -39,7 +39,7 @@ dan con una frecuencia e intensidad más elevada de lo habitual. </p>
 oscuridad o a quedarnos solos en casa. Sin embargo, estos miedos pueden ser habituales a la
 edad del sujeto o por el contrario pueden interferir en su vida diaria, momento en el que
 ayudaremos al menor a enfrentar y manejar dichos miedos.</p>
-        <a class="btn2" href="">Pedir cita</a>
+        <a class="btn2" href="{{ route('contacto') }}">Pedir cita</a>
       </div>
       <div class="servicios__box servicios__box__6">
         <h2>Problemas de alimentación.</h2>
@@ -47,7 +47,7 @@ ayudaremos al menor a enfrentar y manejar dichos miedos.</p>
 niños, rechazando ciertas texturas o sabores o excluyendo ciertos alimentos de su dieta diaria.
 Debemos atender a esta problemáEca puesto que puede tener consecuencias tanto para el
 desarrollo del menor como para su vida adulta.</p>
-        <a class="btn2" href="">Pedir cita</a>
+        <a class="btn2" href="{{ route('contacto') }}">Pedir cita</a>
       </div>
     </div>
   </div>

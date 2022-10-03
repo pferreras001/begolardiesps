@@ -13,25 +13,25 @@
                 <a href="{{ route('inicio') }}">Inicio</a>
             </li>
             <li class="{{ (Request::route()->getName()=='horarios') ? 'active' : '' }}">
-              <a href="">Servicios</a>
+              <a href="#servicios">Servicios</a>
             </li>
             <li class="{{ (Request::route()->getName()=='actividades') ? 'active' : '' }}">
-                <a href="">Tarifas</a>
+                <a href="#tarifas">Tarifas</a>
             </li>
             <li class="{{ (Request::route()->getName()=='cuotas') ? 'active' : '' }}">
-              <a href="">Sobre mi</a>
+              <a href="#sobre_mi">Sobre mi</a>
             </li>
             <li class="{{ (Request::route()->getName()=='blog') ? 'active' : '' }}">
-              <a href="">Blog</a>
+              <a href="{{ route('blog') }}">Blog</a>
             </li>
             <li class="{{ (Request::route()->getName()=='galeria') ? 'active' : '' }}">
-              <a href="">Contacto</a>
+              <a href="{{ route('contacto') }}">Contacto</a>
             </li>
             <li class="{{ (Request::route()->getName()=='galeria') ? 'active' : '' }}">
-              <a href=""><?php require('svg/mail.svg')?></a>
+              <a href="mailto:info@begolardiespsicologia.com"><?php require('svg/mail.svg')?></a>
             </li>
             <li class="{{ (Request::route()->getName()=='galeria') ? 'active' : '' }}">
-              <a href=""><?php require('svg/telephone.svg')?></a>
+              <a href="tel:+34-652-54-04-49"><?php require('svg/telephone.svg')?></a>
             </li>
             @auth
             <li class="{{ (Request::route()->getName()=='galeria') ? 'active' : '' }}">

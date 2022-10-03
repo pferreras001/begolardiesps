@@ -16,9 +16,18 @@
 @import 'components/sobre_mi';
 @import 'components/tarifas';
 @import 'components/contacto';
+@import 'components/blog';
 @import 'components/login';
+@import 'components/create_entry';
+@import 'components/show_entry';
+@import 'components/edit_entry';
+@import 'components/recover_password';
 @import 'components/footer';
 
+
+html {
+  scroll-behavior: smooth;
+}
 
 body{
   background: $color-white-1;

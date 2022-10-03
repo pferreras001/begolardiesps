@@ -647,6 +647,54 @@ nav ul.dropdown-list {
     width: 602px;
   }
 }
+.blog__title {
+  color: #A2A0A0;
+}
+
+.section__blog form {
+  margin-top: 100px;
+}
+
+.blog__noticias {
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  margin-top: 100px;
+  row-gap: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.blog__box {
+  border-radius: 5px;
+  padding: 20px;
+  width: 100%;
+}
+
+.blog__box h2 {
+  font-size: 2rem;
+  background: rgba(255, 255, 255, 0);
+  margin-bottom: 50px;
+}
+
+.blog__box p {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 100px;
+  padding: 5px;
+  overflow: hidden;
+  text-align: justify;
+}
+
+@media only screen and (min-width: 768px) {
+  .blog__noticias {
+    flex-direction: row;
+  }
+
+  .blog__box {
+    padding: 50px;
+    width: 49%;
+  }
+}
 .login__section form {
   margin-top: 100px;
   min-height: 60vh;
@@ -658,6 +706,32 @@ nav ul.dropdown-list {
 
 .login__section a {
   color: #A2A0A0 !important;
+}
+
+.section__create_entry form {
+  margin-top: 100px;
+}
+
+.section__create_entry input, .section__create_entry textarea {
+  margin-top: 50px;
+}
+
+.section__show_entry {
+  color: #A2A0A0;
+}
+
+.section__show_entry p {
+  text-align: justify;
+}
+
+.section__edit_entry form {
+  color: #A2A0A0;
+  margin-top: 100px;
+}
+
+.recover_password__container {
+  color: #A2A0A0;
+  margin-top: 100px;
 }
 
 .footer {
@@ -695,6 +769,10 @@ nav ul.dropdown-list {
     text-align: left;
   }
 }
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #FFFFFF;
   color: white;
