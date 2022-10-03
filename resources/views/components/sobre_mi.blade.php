@@ -1,5 +1,5 @@
 <section class="section sobre_mi" id="sobre_mi">
-  <div class="sobre_mi__container container">
+  <div data-aos="fade-right" class="sobre_mi__container container">
     <h1>Sobre mi.</h1>
     <p>
 ¡Bienvenida a mi página web!<br><br>

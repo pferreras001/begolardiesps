@@ -1,5 +1,5 @@
 <section class="section tarifas" id="tarifas">
-  <div class="tarifas__container container">
+  <div data-aos="fade-right" class="tarifas__container container">
     <h1>Tarifas.</h1>
     <div class="tarifas__boxes">
       <div class="tarifas__box tarifas__box__1">

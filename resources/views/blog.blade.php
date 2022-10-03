@@ -2,7 +2,7 @@
 
 @section('section')
 
-<section class="section section__blog">
+<section data-aos="fade-right" class="section section__blog">
   <div class="blog__container container">
     <form action="{{route('blog')}}" method="POST">
       @csrf

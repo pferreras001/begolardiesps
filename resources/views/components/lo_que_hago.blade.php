@@ -1,5 +1,5 @@
 <section class="section lo_que_hago">
-  <div class="lo_que_hago__container container">
+  <div data-aos="fade-right" class="lo_que_hago__container container">
     <h1>Esto es lo que hago.</h1>
     <p>
       Mi trabajo consiste en ofrecer atención psicológica en el ámbito de la <span>infancia y la adolescencia</span>, ofreciendo un servicio integral y personalizado desde las primeras etapas del desarrollo. El objetivo principal de nuestro trabajo es ayudar a cada niño/a o adolescente y a sus familias a adquirir los <span>recursos</span> necesarios para afrontar las dificultades que les traen a consulta.<br><br>
