@@ -13,13 +13,13 @@
                 <a href="{{ route('inicio') }}">Inicio</a>
             </li>
             <li class="{{ (Request::route()->getName()=='horarios') ? 'active' : '' }}">
-              <a href="#servicios">Servicios</a>
+              <a href="/#servicios">Servicios</a>
             </li>
             <li class="{{ (Request::route()->getName()=='actividades') ? 'active' : '' }}">
-                <a href="#tarifas">Tarifas</a>
+                <a href="/#tarifas">Tarifas</a>
             </li>
             <li class="{{ (Request::route()->getName()=='cuotas') ? 'active' : '' }}">
-              <a href="#sobre_mi">Sobre mi</a>
+              <a href="/#sobre_mi">Sobre mi</a>
             </li>
             <li class="{{ (Request::route()->getName()=='blog') ? 'active' : '' }}">
               <a href="{{ route('blog') }}">Blog</a>
