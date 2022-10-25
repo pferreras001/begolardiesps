@@ -716,11 +716,17 @@ nav ul.dropdown-list {
 }
 
 .section__create_entry form {
+  color: #555555;
   margin-top: 100px;
 }
 
 .section__create_entry input, .section__create_entry textarea {
   margin-top: 50px;
+}
+
+.section__create_entry textarea {
+  width: 60%;
+  height: 500px;
 }
 
 .section__show_entry {
