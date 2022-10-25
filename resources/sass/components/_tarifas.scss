@@ -9,6 +9,7 @@
   flex-direction:column;
   column-gap: 10px;
   margin: 0 auto;
+  margin-top: 230px;
   row-gap: 10px;
 }
 
@@ -39,11 +40,11 @@
 }
 
 .tarifas__box h1{
-  color:$color-white-1;
+  color:$color-gray-1;
   font-family: $tg-roboto;
   font-size:4rem;
+  margin-top: -130px;
   text-align: center;
-  margin: 0;
 }
 
 .tarifas__box h2{

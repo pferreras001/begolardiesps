@@ -8,11 +8,12 @@
 
 .blog__noticias{
   column-gap:10px;
-  margin-top: 100px;
-  row-gap: 30px;
+  margin-top: 200px;
+  row-gap: 130px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  margin-top: 100px;
 }
 
 .blog__box{
@@ -26,7 +27,9 @@
 .blog__box h2{
   font-size: 2rem;
   background: rgb(255,255,255,0);
+  color: #555555;
   margin-bottom: 50px;
+  margin-top: -100px;
 }
 
 .blog__box p{

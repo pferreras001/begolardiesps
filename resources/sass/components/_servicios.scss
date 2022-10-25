@@ -5,10 +5,11 @@
 
 .servicios__boxes{
   column-gap:10px;
-  row-gap: 30px;
+  row-gap: 130px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  margin-top: 100px;
 }
 
 .servicios__box__1{
@@ -46,7 +47,9 @@
 .servicios__box h2{
   font-size: 2rem;
   background: rgb(255,255,255,0);
+  color: $color-gray-1;
   margin-bottom: 50px;
+  margin-top: -100px;
 }
 
 .servicios__box p{
