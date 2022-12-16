@@ -26,7 +26,8 @@
 
     <div class="blog__noticias">
       @foreach($blogentrys as $blogentry)
-      <div class="blog__box" style="background: url('{{asset('/images/blog/'.$blogentry->image)}}') no-repeat right;">
+      <div data-aos="fade-up" class="blog__box">
+        <img src="{{asset('/images/blog/'.$blogentry->image)}}">
         <h2>{{ $blogentry->titulo }}</h2>
         <p>{{ $blogentry->texto }}</p>
         <a class="btn2" href="{{route('show_entry',['id' =>$blogentry->id])}}">Leer mas...</a>

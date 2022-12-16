@@ -9,46 +9,38 @@
   flex-direction:column;
   column-gap: 10px;
   margin: 0 auto;
-  margin-top: 230px;
+  margin-top: 150px;
   row-gap: 10px;
 }
 
-.tarifas__box__1{
-  background: url("/img/tarifas/completa.jpg") no-repeat;
-}
-
-.tarifas__box__2{
-  background: url("/img/tarifas/media.jpg") no-repeat;
-}
-
-.tarifas__box__3{
-  background: url("/img/tarifas/online.jpg") no-repeat;
-}
-
 .tarifas__box{
-  background-size: cover;
-    -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
   margin: auto;
   width: 100%;
 }
 
 .tarifas__box{
   text-align:center;
-  padding:50px;
+  padding:5px;
+}
+
+.tarifas__box img{
+  background-size: cover;
+    -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  width: 100%;
 }
 
 .tarifas__box h1{
   color:$color-gray-1;
   font-family: $tg-roboto;
-  font-size:4rem;
-  margin-top: -130px;
+  font-size:3rem;
+  margin-top: 50px;
   text-align: center;
 }
 
 .tarifas__box h2{
-  background-color: rgb(0,0,0,.3);
+  color: $color-gray-1;
   margin-bottom: 20px;
 }
 

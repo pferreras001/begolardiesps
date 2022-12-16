@@ -13,7 +13,7 @@
 }
 
 .servicios__box__1{
-  background: url("/img/servicios/conducta.jpg") no-repeat right;
+
 }
 
 .servicios__box__2{
@@ -41,6 +41,11 @@
   -moz-border-radius: 5px;
   border-radius: 5px;
   padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.servicios__box img{
   width: 100%;
 }
 
@@ -49,11 +54,11 @@
   background: rgb(255,255,255,0);
   color: $color-gray-1;
   margin-bottom: 50px;
-  margin-top: -100px;
+  margin-top: 50px;
 }
 
 .servicios__box p{
-  background-color: rgb(0,0,0,.3);
+  color: $color-gray-1;
   padding:5px;
   text-align: justify;
 }

@@ -353,10 +353,6 @@ nav ul.dropdown-list {
   margin-top: 100px;
 }
 
-.servicios__box__1 {
-  background: url("/img/servicios/conducta.jpg") no-repeat right;
-}
-
 .servicios__box__2 {
   background: url("/img/servicios/ansiedad.jpg") no-repeat right;
 }
@@ -380,6 +376,11 @@ nav ul.dropdown-list {
 .servicios__box {
   border-radius: 5px;
   padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.servicios__box img {
   width: 100%;
 }
 
@@ -388,11 +389,11 @@ nav ul.dropdown-list {
   background: rgba(255, 255, 255, 0);
   color: #555555;
   margin-bottom: 50px;
-  margin-top: -100px;
+  margin-top: 50px;
 }
 
 .servicios__box p {
-  background-color: rgba(0, 0, 0, 0.3);
+  color: #555555;
   padding: 5px;
   text-align: justify;
 }
@@ -423,7 +424,7 @@ nav ul.dropdown-list {
 
 @media only screen and (min-width: 1025px) {
   .sobre_mi {
-    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 72%), url("/img/sobre_mi/background.jpg") no-repeat left;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 23%, rgb(255, 255, 255) 57%), url("/img/sobre_mi/background.jpg") no-repeat left;
     background-size: cover;
     height: 2000px;
   }
@@ -450,44 +451,36 @@ nav ul.dropdown-list {
   -moz-column-gap: 10px;
        column-gap: 10px;
   margin: 0 auto;
-  margin-top: 230px;
+  margin-top: 150px;
   row-gap: 10px;
 }
 
-.tarifas__box__1 {
-  background: url("/img/tarifas/completa.jpg") no-repeat;
-}
-
-.tarifas__box__2 {
-  background: url("/img/tarifas/media.jpg") no-repeat;
-}
-
-.tarifas__box__3 {
-  background: url("/img/tarifas/online.jpg") no-repeat;
-}
-
 .tarifas__box {
-  background-size: cover;
-  border-radius: 5px;
   margin: auto;
   width: 100%;
 }
 
 .tarifas__box {
   text-align: center;
-  padding: 50px;
+  padding: 5px;
+}
+
+.tarifas__box img {
+  background-size: cover;
+  border-radius: 5px;
+  width: 100%;
 }
 
 .tarifas__box h1 {
   color: #555555;
   font-family: "Roboto", sans-serif;
-  font-size: 4rem;
-  margin-top: -130px;
+  font-size: 3rem;
+  margin-top: 50px;
   text-align: center;
 }
 
 .tarifas__box h2 {
-  background-color: rgba(0, 0, 0, 0.3);
+  color: #555555;
   margin-bottom: 20px;
 }
 
@@ -651,6 +644,10 @@ nav ul.dropdown-list {
     width: 602px;
   }
 }
+.blog {
+  background: linear-gradient(to bottom right, #D9A5D0 0%, #EEC4E7 11%, rgb(255, 255, 255) 28%), no-repeat left;
+}
+
 .blog__title {
   color: #555555;
 }
@@ -676,16 +673,21 @@ nav ul.dropdown-list {
   width: 100%;
 }
 
+.blog__box img {
+  border-radius: 5px;
+  width: 100%;
+}
+
 .blog__box h2 {
   font-size: 2rem;
   background: rgba(255, 255, 255, 0);
   color: #555555;
   margin-bottom: 50px;
-  margin-top: -100px;
+  margin-top: 50px;
 }
 
 .blog__box p {
-  background-color: rgba(0, 0, 0, 0.3);
+  color: #555555;
   height: 100px;
   padding: 5px;
   overflow: hidden;
