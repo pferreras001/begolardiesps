@@ -51,7 +51,7 @@
 }
 
 .brand .icon {
-  fill: #555555;
+  fill: #151414;
 }
 
 .nav-wrapper ul.nav-list {
@@ -65,14 +65,14 @@
   display: block;
   width: 0;
   height: 2px;
-  background: #555555;
+  background: #151414;
   transition: width 0.3s;
 }
 
 .dropdown-toggle button {
-  border: #555555;
+  border: #151414;
   border-radius: 0.25rem;
-  background: #555555;
+  background: #151414;
   padding: 10px 20px;
 }
 
@@ -108,19 +108,19 @@
 }
 
 .nav-wrapper ul.nav-list li a {
-  color: #555555;
+  color: #151414;
   text-decoration: none;
   letter-spacing: 1px;
   transition: all 0.5s ease-in-out;
 }
 
 .nav-wrapper ul.nav-list li a:hover, .nav-wrapper ul.nav-list li.active a {
-  color: #555555;
+  color: #151414;
 }
 
 .nav-list li .icon {
   height: 23px;
-  fill: #555555;
+  fill: #151414;
 }
 
 main section.header {
@@ -210,7 +210,7 @@ nav ul.dropdown-list {
 }
 
 .mobile .hamburger span {
-  background: #555555;
+  background: #151414;
   width: 28px;
   height: 2px;
   margin-bottom: 8px;
@@ -293,7 +293,7 @@ nav ul.dropdown-list {
 }
 
 .home__container h3 {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .home__container h1, .home__container h3 {
@@ -306,7 +306,7 @@ nav ul.dropdown-list {
 
 .lo_que_hago__container {
   background: transparent;
-  color: #555555;
+  color: #151414;
 }
 
 .lo_que_hago__container p {
@@ -329,7 +329,8 @@ nav ul.dropdown-list {
 
 @media only screen and (min-width: 768px) {
   .lo_que_hago {
-    background: linear-gradient(to left, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 60%), url("/img/lo_que_hago/background.jpg") no-repeat right;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 60%), url("/img/lo_que_hago/background.jpg") no-repeat 52%;
+    padding: 170px;
   }
 
   .lo_que_hago__container p {
@@ -339,7 +340,7 @@ nav ul.dropdown-list {
   }
 }
 .servicios__container h1 {
-  color: #555555;
+  color: #151414;
   text-align: right;
 }
 
@@ -381,19 +382,19 @@ nav ul.dropdown-list {
 }
 
 .servicios__box img {
-  width: 100%;
+  width: 30%;
 }
 
 .servicios__box h2 {
   font-size: 2rem;
   background: rgba(255, 255, 255, 0);
-  color: #555555;
+  color: #151414;
   margin-bottom: 50px;
   margin-top: 50px;
 }
 
 .servicios__box p {
-  color: #555555;
+  color: #151414;
   padding: 5px;
   text-align: justify;
 }
@@ -409,11 +410,11 @@ nav ul.dropdown-list {
   }
 }
 .sobre_mi h1 {
-  color: #555555;
+  color: #151414;
 }
 
 .sobre_mi p {
-  color: #555555;
+  color: #151414;
   text-align: justify;
 }
 
@@ -426,6 +427,7 @@ nav ul.dropdown-list {
   .sobre_mi {
     background: linear-gradient(to right, rgba(255, 255, 255, 0) 23%, rgb(255, 255, 255) 57%), url("/img/sobre_mi/background.jpg") no-repeat left;
     background-size: cover;
+    background-position: -103px 0px;
     height: 2000px;
   }
 
@@ -436,11 +438,14 @@ nav ul.dropdown-list {
   .sobre_mi p {
     margin-left: 50%;
     width: 539px;
-    font-size: 1.5rem;
   }
 }
+.tarifas {
+  padding: 100px;
+}
+
 .tarifas h1 {
-  color: #555555;
+  color: #151414;
   text-align: right;
 }
 
@@ -472,7 +477,7 @@ nav ul.dropdown-list {
 }
 
 .tarifas__box h1 {
-  color: #555555;
+  color: #151414;
   font-family: "Roboto", sans-serif;
   font-size: 3rem;
   margin-top: 50px;
@@ -480,7 +485,7 @@ nav ul.dropdown-list {
 }
 
 .tarifas__box h2 {
-  color: #555555;
+  color: #151414;
   margin-bottom: 20px;
 }
 
@@ -649,7 +654,7 @@ nav ul.dropdown-list {
 }
 
 .blog__title {
-  color: #555555;
+  color: #151414;
 }
 
 .section__blog form {
@@ -687,7 +692,7 @@ nav ul.dropdown-list {
 }
 
 .blog__box p {
-  color: #555555;
+  color: #151414;
   height: 100px;
   padding: 5px;
   overflow: hidden;
@@ -714,11 +719,11 @@ nav ul.dropdown-list {
 }
 
 .login__section a {
-  color: #555555 !important;
+  color: #151414 !important;
 }
 
 .section__create_entry form {
-  color: #555555;
+  color: #151414;
   margin-top: 100px;
 }
 
@@ -732,7 +737,7 @@ nav ul.dropdown-list {
 }
 
 .section__show_entry {
-  color: #555555;
+  color: #151414;
 }
 
 .section__show_entry p {
@@ -740,12 +745,12 @@ nav ul.dropdown-list {
 }
 
 .section__edit_entry form {
-  color: #555555;
+  color: #151414;
   margin-top: 100px;
 }
 
 .recover_password__container {
-  color: #555555;
+  color: #151414;
   margin-top: 100px;
 }
 
@@ -784,6 +789,10 @@ nav ul.dropdown-list {
     text-align: left;
   }
 }
+.aviso_legal__container {
+  color: #151414 !important;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -825,14 +834,18 @@ h1 {
 }
 
 p {
-  font-size: 1rem;
+  font-size: 1.4rem;
+}
+
+p span {
+  color: #cb4fb6 !important;
 }
 
 input, textarea {
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
-  border: 1px #555555 solid;
+  border: 1px #151414 solid;
   padding: 10px;
 }
 
@@ -846,7 +859,7 @@ input, textarea {
   border: 0;
   border-radius: 4px;
   background-color: #FFFFFF;
-  color: #555555;
+  color: #151414;
   padding: 10px;
   transition: all 0.2s;
 }

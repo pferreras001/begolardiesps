@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'App\Http\Controllers\PagesController@inicio')->name('inicio');
 Route::get('/contacto', 'App\Http\Controllers\PagesController@contacto')->name('contacto');
+Route::get('/aviso_legal', 'App\Http\Controllers\PagesController@aviso_legal')->name('aviso_legal');
 Route::get('/admin', 'App\Http\Controllers\PagesController@admin')->name('admin');
 
 Route::post('/contacto', 'App\Http\Controllers\PagesController@enviar_contacto')->name('contacto');

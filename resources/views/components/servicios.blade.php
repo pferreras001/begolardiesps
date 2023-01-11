@@ -13,7 +13,7 @@ dudes en contactar conmigo para comenzar a trabajar la forma en la que gestiona 
       <div data-aos="fade-up" class="servicios__box">
         <img src="/img/servicios/ansiedad.png">
         <h2>Ansiedad infantil.</h2>
-        <p>La ansiedad cumple una función adaptaEva, pues nos ayuda a sobrevivir en
+        <p>La ansiedad cumple una función adaptativa, pues nos ayuda a sobrevivir en
 momentos de peligro. Sin embargo, cuando observamos en nuestros hijos niveles de ansiedad muy
 intensos y que persisten en el Eempo es conveniente comenzar a atenderla.  </p>
         <a class="btn2" href="">Pedir cita</a>
@@ -33,7 +33,7 @@ esta problemática.</p>
         <h2>Depresión.</h2>
         <p>Los niños y adolescentes también tienen preocupaciones, pasan por situaciones
 complicadas y tienen momentos de tristeza e irritabilidad. Si bien es cierto que todas las personas
-nos hemos senEdo así en algún momento determinado, deberemos atender a si esas señales se
+nos hemos sentido así en algún momento determinado, deberemos atender a si esas señales se
 dan con una frecuencia e intensidad más elevada de lo habitual. </p>
         <a class="btn2" href="{{ route('contacto') }}">Pedir cita</a>
       </div>
@@ -51,7 +51,7 @@ ayudaremos al menor a enfrentar y manejar dichos miedos.</p>
         <h2>Problemas de alimentación.</h2>
         <p>Las dificultades en la alimentación se dan de forma habitual en los
 niños, rechazando ciertas texturas o sabores o excluyendo ciertos alimentos de su dieta diaria.
-Debemos atender a esta problemáEca puesto que puede tener consecuencias tanto para el
+Debemos atender a esta problemática puesto que puede tener consecuencias tanto para el
 desarrollo del menor como para su vida adulta.</p>
         <a class="btn2" href="{{ route('contacto') }}">Pedir cita</a>
       </div>

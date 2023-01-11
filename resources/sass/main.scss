@@ -23,6 +23,7 @@
 @import 'components/edit_entry';
 @import 'components/recover_password';
 @import 'components/footer';
+@import 'components/aviso_legal';
 
 
 html {
@@ -66,7 +67,11 @@ h1{
 }
 
 p{
-  font-size:1rem;
+  font-size:1.4rem;
+}
+
+p span{
+  color: $color-pink-text !important;
 }
 
 input, textarea{

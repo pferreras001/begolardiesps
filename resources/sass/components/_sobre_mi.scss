@@ -23,6 +23,7 @@
 .sobre_mi{
   background: linear-gradient(to right, rgba(255,255,255,0)23% , rgba(255,255,255,1)57%), url("/img/sobre_mi/background.jpg") no-repeat left;
   background-size: cover;
+  background-position: -103px 0px;
   height:2000px;
 
 }
@@ -34,7 +35,6 @@
 .sobre_mi p{
   margin-left: 50%;
   width: 539px;
-  font-size: 1.5rem;
 }
 
 }
