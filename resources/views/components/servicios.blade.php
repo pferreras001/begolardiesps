@@ -15,7 +15,7 @@ dudes en contactar conmigo para comenzar a trabajar la forma en la que gestiona 
         <h2>Ansiedad infantil.</h2>
         <p>La ansiedad cumple una función adaptativa, pues nos ayuda a sobrevivir en
 momentos de peligro. Sin embargo, cuando observamos en nuestros hijos niveles de ansiedad muy
-intensos y que persisten en el Eempo es conveniente comenzar a atenderla.  </p>
+intensos y que persisten en el tiempo es conveniente comenzar a atenderla.  </p>
         <a class="btn2" href="">Pedir cita</a>
       </div>
       <div data-aos="fade-up" class="servicios__box servicios__box__3">
