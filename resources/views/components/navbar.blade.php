@@ -9,6 +9,9 @@
             <span></span>
         </div>
         <ul class="nav-list">
+            <li class="">
+                <a href="tel:+34-652-54-04-49">+34 652 54 04 49</a>
+            </li>
             <li class="{{ (Request::route()->getName()=='inicio') ? 'active' : '' }}">
                 <a href="{{ route('inicio') }}">Inicio</a>
             </li>
