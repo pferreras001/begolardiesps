@@ -18,7 +18,9 @@
     <div data-aos="fade-left" class="contacto__form__right">
       <h1>
         Puedes escribirme un mensaje.<br>
-        ¡Te responderé lo antes posible!
+        ¡Te responderé lo antes posible!<br><br>
+        <a href="tel:+34652540449"><?php require('svg/telephone.svg')?>+34 652 54 04 49</a><br>
+        <a href="mailto:begolardies@gmail.com"><?php require('svg/mail.svg')?>begolardies@gmail.com</a>
       </h1>
     </div>
   </div>

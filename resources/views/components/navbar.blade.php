@@ -1,4 +1,9 @@
+
 <nav>
+    <div class="nav-head">
+      <a href="tel:+34-652-54-04-49"><?php require('svg/telephone.svg')?>+34 652 54 04 49</a>
+      <a href="mailto:begolardies@gmail.com"><?php require('svg/mail.svg')?>begolardies@gmail.com</a>
+    </div>
     <div class="nav-wrapper">
         <div class="brand">
             <a href="{{ route('inicio') }}"><?php require('svg/navbar/logo.svg')?></a>
@@ -9,9 +14,6 @@
             <span></span>
         </div>
         <ul class="nav-list">
-            <li class="">
-                <a href="tel:+34-652-54-04-49">+34 652 54 04 49</a>
-            </li>
             <li class="{{ (Request::route()->getName()=='inicio') ? 'active' : '' }}">
                 <a href="{{ route('inicio') }}">Inicio</a>
             </li>

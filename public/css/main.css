@@ -18,6 +18,27 @@
   --dark-gray: #999;
 }
 
+nav {
+  position: fixed;
+  z-index: 15;
+}
+
+.nav-head {
+  background-color: #D9A5D0;
+  min-height: 40px;
+  padding: 5px;
+  text-align: center;
+}
+
+.nav-head a {
+  margin-left: 20px;
+}
+
+.nav-head .icon {
+  height: 20px;
+  fill: #FFFFFF;
+}
+
 .container {
   width: 1152px;
   max-width: 90%;
@@ -33,8 +54,6 @@
   justify-content: space-between;
   width: 100vw;
   left: 50%;
-  transform: translate(-50%, 0);
-  position: fixed;
   padding: 0 100px 0 100px;
   z-index: 10;
 }
@@ -281,7 +300,8 @@ nav ul.dropdown-list {
 }
 
 .home {
-  background: linear-gradient(to right, #D9A5D0 0%, #EEC4E7 70%, rgb(255, 255, 255) 100%), no-repeat left;
+  background: url("/img/home/background.jpeg") no-repeat;
+  background-size: cover;
   display: flex;
   height: 500px;
   align-items: center;
@@ -290,6 +310,7 @@ nav ul.dropdown-list {
 
 .home__container {
   text-align: center;
+  background: rgba(0, 0, 0, 0.3);
 }
 
 .home__container h3 {
@@ -302,13 +323,7 @@ nav ul.dropdown-list {
 
 @media only screen and (min-width: 768px) {
   .home {
-    background: url("/img/home/background.jpeg") no-repeat;
-    background-size: cover;
     height: 800px;
-  }
-
-  .home__container {
-    background: rgba(0, 0, 0, 0.3);
   }
 
   .home__container div {
@@ -455,10 +470,6 @@ nav ul.dropdown-list {
     width: 539px;
   }
 }
-.tarifas {
-  padding: 100px;
-}
-
 .tarifas h1 {
   color: #151414;
   text-align: right;
@@ -472,7 +483,7 @@ nav ul.dropdown-list {
        column-gap: 10px;
   margin: 0 auto;
   margin-top: 150px;
-  row-gap: 10px;
+  row-gap: 90px;
 }
 
 .tarifas__box {
@@ -560,6 +571,11 @@ nav ul.dropdown-list {
   margin-bottom: 40px !important;
 }
 
+.contacto__form__right .icon {
+  height: 30px;
+  fill: #FFFFFF;
+}
+
 .contacto__form button {
   border: 0;
 }
@@ -571,6 +587,10 @@ nav ul.dropdown-list {
   margin: 50px auto;
   text-align: center;
   width: 90%;
+}
+
+.contacto__form__right a {
+  font-size: 25px !important;
 }
 
 .contacto__telefono {

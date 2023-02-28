@@ -12,6 +12,26 @@
     --dark-gray: #999;
 }
 
+nav{
+    position: fixed;
+    z-index: 15;
+}
+
+.nav-head{
+    background-color: $color-pink-dark;
+    min-height: 40px;
+    padding: 5px;
+    text-align: center;
+}
+
+.nav-head a{
+    margin-left: 20px;
+}
+
+.nav-head .icon{
+    height: 20px;
+    fill: $color-white-1;
+}
 
 .container {
     width: 1152px;
@@ -28,8 +48,6 @@
     justify-content: space-between;
     width: 100vw;
     left: 50%;
-    transform: translate(-50%, 0);
-    position: fixed;
     padding: 0 100px 0 100px;
     z-index:10;
 }

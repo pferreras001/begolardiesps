@@ -11,8 +11,6 @@
   background-size: cover;
 }
 
-.contacto__form div{
-}
 
 .contacto__form__left{
   text-align: center;
@@ -48,6 +46,11 @@
   margin-bottom: 40px !important;
 }
 
+.contacto__form__right .icon{
+  height: 30px;
+  fill: $color-white-1;
+}
+
 .contacto__form button{
   border: 0;
 }
@@ -59,6 +62,10 @@
   margin: 50px auto;
   text-align: center;
   width: 90%;
+}
+
+.contacto__form__right a{
+  font-size: 25px !important;
 }
 
 .contacto__form__right h1 span{

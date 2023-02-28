@@ -1,5 +1,6 @@
 .home{
-  background: linear-gradient(to right, $color-pink-dark 0%, $color-pink-light 70% , rgba(255,255,255,1)100%), no-repeat left;
+  background: url("/img/home/background.jpeg") no-repeat;
+  background-size: cover;
   display: flex;
   height: 500px;
   align-items: center;
@@ -8,6 +9,7 @@
 
 .home__container{
   text-align: center;
+  background: rgba(black, 0.3);
 }
 
 .home__container h3{
@@ -21,13 +23,8 @@
 @media #{$breakpoints-medium} {
 
 .home{
-  background: url("/img/home/background.jpeg") no-repeat;
-  background-size: cover;
+ 
   height: 800px;
-}
-
-.home__container{
-  background: rgba(black, 0.3);
 }
 
 .home__container div{
