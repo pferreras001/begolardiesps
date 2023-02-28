@@ -2,7 +2,7 @@
 <html lang="{{ app()->getLocale() }}">
 <head>
 
-  <title>Begoña Lardies Psicóloga</title>
+  <title>Begoña Lardiés Psicóloga Infantil y Juvenil en Tudela</title>
 
   <!-- Required meta tags -->
   <meta charset="utf-8">
