@@ -18,11 +18,7 @@
 }
 
 .lo_que_hago img{
-  position: absolute;
-  right: 0;
-  top:0;
   width: 100%;
-  z-index:-1;
 }
 
 @media #{$breakpoints-medium} {
@@ -37,6 +33,10 @@
   text-align: justify;
   margin:0 0;
   width: 60%;
+}
+
+.lo_que_hago img{
+  display: none;
 }
 
 }

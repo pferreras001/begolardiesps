@@ -11,10 +11,15 @@
   color: $color-pink-dark;
   text-align: justify;
 }
+.sobre_mi img{
+  width: 100%;
+}
 
 @media #{$breakpoints-medium} {
 
-
+.sobre_mi img{
+  display: none;
+}
 
 }
 

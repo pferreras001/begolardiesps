@@ -13,4 +13,5 @@ En cuanto a mi metodología de trabajo, la orientación con la que más cómoda 
 Por ello, una parte fundamental de lo que hacemos consiste en acompañar y orientar a las <span>familias</span> de estos niños, pues muchas veces nos sentimos perdidos a la hora de acompañar a nuestros peques y no contamos con herramientas suficientes para comprenderlos y ayudarlos. Por ello, llevamos a cabo un proceso de orientación y <span>seguimiento</span> contínuo tanto con el entorno familiar del menor como en el <span>contexto escolar</span> en el que se desarrollan, facilitando pautas específicas con las que puedan ayudarlos de la mejor forma posible a manejar su malestar.<br><br>
     </p>
   </div>
+  <img src="/img/sobre_mi/background.jpg">
 </section>

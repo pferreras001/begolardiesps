@@ -350,11 +350,7 @@ nav ul.dropdown-list {
 }
 
 .lo_que_hago img {
-  position: absolute;
-  right: 0;
-  top: 0;
   width: 100%;
-  z-index: -1;
 }
 
 @media only screen and (min-width: 768px) {
@@ -367,6 +363,10 @@ nav ul.dropdown-list {
     text-align: justify;
     margin: 0 0;
     width: 60%;
+  }
+
+  .lo_que_hago img {
+    display: none;
   }
 }
 .servicios__container h1 {
@@ -453,6 +453,15 @@ nav ul.dropdown-list {
   text-align: justify;
 }
 
+.sobre_mi img {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .sobre_mi img {
+    display: none;
+  }
+}
 @media only screen and (min-width: 1025px) {
   .sobre_mi {
     background: linear-gradient(to right, rgba(255, 255, 255, 0) 23%, rgb(255, 255, 255) 57%), url("/img/sobre_mi/background.jpg") no-repeat left;
@@ -532,9 +541,9 @@ nav ul.dropdown-list {
 .contacto__form {
   display: flex;
   flex-direction: column-reverse;
-  padding: 100px;
-  background: linear-gradient(to left, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%), url("/img/contacto/background.jpg") no-repeat;
+  background: url("/img/contacto/background.jpg") no-repeat;
   background-size: cover;
+  padding: 20px;
 }
 
 .contacto__form__left {
@@ -647,6 +656,7 @@ nav ul.dropdown-list {
   .contacto__form {
     display: flex;
     flex-direction: row;
+    padding: 100px;
   }
 
   .contacto__form__right {
@@ -673,8 +683,8 @@ nav ul.dropdown-list {
     width: 314px;
   }
 
-  .contacto__telefono {
-    background: url("/img/contacto/telefono_background.png") no-repeat;
+  .contacto__form {
+    background: linear-gradient(to left, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%), url("/img/contacto/background.jpg") no-repeat;
     background-size: cover;
   }
 

@@ -8,5 +8,6 @@ Abordamos la problemática de cada niño/ o adolescente realizando un trabajo <s
 
 En relación con las problemáticas que abordamos, trabajamos por un lado dificultades propias de la etapa de <span>infancia y la niñez</span>, como son el fracaso o acoso escolar, problemas de conducta, distintos miedos y fobias, ansiedad en la infancia, depresión, trastornos y problemas de alimentación o celos infantiles. Por otro lado, abordamos problemáticas relacionadas con el periodo de la <span>adolescencia</span>, como son el acoso o fracaso escolar, fobia social, ansiedad, depresión, anorexia, bulimia y obesidad o trastornos psicosomáticos. <br><br>
     </p>
-  </div> 
+  </div>
+  <img src="/img/lo_que_hago/background.jpg"> 
 </section>

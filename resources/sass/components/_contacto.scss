@@ -6,9 +6,9 @@
 .contacto__form{
   display: flex;
   flex-direction: column-reverse;
-  padding: 100px;
-  background: linear-gradient(to left, rgba(255,255,255,0)0% , rgba(255,255,255,1)100%), url("/img/contacto/background.jpg") no-repeat;
+  background: url("/img/contacto/background.jpg") no-repeat;
   background-size: cover;
+  padding: 20px;
 }
 
 
@@ -137,6 +137,7 @@
 .contacto__form{
   display: flex;
   flex-direction: row;
+  padding: 100px;
 }
 
 .contacto__form__right{
@@ -163,8 +164,8 @@
   width: 314px;
 }
 
-.contacto__telefono{
-  background: url('/img/contacto/telefono_background.png') no-repeat;
+.contacto__form{
+  background: linear-gradient(to left, rgba(255,255,255,0)0% , rgba(255,255,255,1)100%), url("/img/contacto/background.jpg") no-repeat;
   background-size:cover;
 }
 
