@@ -59,14 +59,15 @@ nav {
 }
 
 .brand {
+  margin-top: 30px;
   margin-left: 100px;
   display: flex;
   align-items: center;
 }
 
 .brand svg {
-  height: 40px;
-  margin-right: 10px;
+  height: 100px;
+  margin-right: 0px;
 }
 
 .brand .icon {
