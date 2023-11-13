@@ -48,19 +48,18 @@ nav{
     justify-content: space-between;
     width: 100vw;
     left: 50%;
-    padding: 0 100px 0 100px;
+    padding: 0 50px 0 50px;
     z-index:10;
 }
 
 .brand {
-    margin-top: 30px;
     margin-left: 100px;
     display: flex;
     align-items: center;
 }
 
 .brand svg {
-    height: 100px;
+    height: 200px;
     margin-right: 0px;
 }
 

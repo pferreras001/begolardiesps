@@ -54,19 +54,18 @@ nav {
   justify-content: space-between;
   width: 100vw;
   left: 50%;
-  padding: 0 100px 0 100px;
+  padding: 0 50px 0 50px;
   z-index: 10;
 }
 
 .brand {
-  margin-top: 30px;
   margin-left: 100px;
   display: flex;
   align-items: center;
 }
 
 .brand svg {
-  height: 100px;
+  height: 200px;
   margin-right: 0px;
 }
 
@@ -440,6 +439,19 @@ nav ul.dropdown-list {
     width: 49%;
   }
 }
+.sobre_mi {
+  position: relative;
+}
+
+.sobre_mi__background {
+  display: none;
+}
+
+.sobre_mi__container {
+  display: flex;
+  flex-direction: column;
+}
+
 .sobre_mi h1 {
   color: #151414;
 }
@@ -458,17 +470,31 @@ nav ul.dropdown-list {
   width: 100%;
 }
 
-@media only screen and (min-width: 768px) {
-  .sobre_mi img {
-    display: none;
-  }
-}
 @media only screen and (min-width: 1025px) {
   .sobre_mi {
-    background: linear-gradient(to right, rgba(255, 255, 255, 0) 23%, rgb(255, 255, 255) 57%), url("/img/sobre_mi/background.jpg") no-repeat left;
-    background-size: cover;
-    background-position: -103px 0px;
-    height: 2000px;
+    padding-top: 0;
+  }
+
+  .sobre_mi__background {
+    display: inline;
+    height: 100%;
+    position: absolute;
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 50vw !important;
+    z-index: -5;
+  }
+
+  .sobre_mi__container {
+    flex-direction: row;
+  }
+
+  .sobre_mi__left, .sobre_mi__right {
+    width: 50%;
+  }
+
+  .sobre_mi__right {
+    background: #FFFFFF;
   }
 
   .sobre_mi h1 {
@@ -476,8 +502,7 @@ nav ul.dropdown-list {
   }
 
   .sobre_mi p {
-    margin-left: 50%;
-    width: 539px;
+    margin: 50px;
   }
 }
 .tarifas h1 {
