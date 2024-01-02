@@ -1,4 +1,5 @@
 .sobre_mi{
+  margin-top: 2rem;
   position: relative;
 }
 
@@ -7,12 +8,12 @@
 
 }
 .sobre_mi__container{
-  display:flex;
-  flex-direction: column;
+
 }
 
 .sobre_mi h1{
   color: $color-gray-1;
+  width: 100%;
 }
 
 .sobre_mi p{
@@ -66,9 +67,6 @@
   background: $color-white-1;
 }
 
-.sobre_mi h1{
-  color: $color-white-1;
-}
 
 .sobre_mi p{
   margin: 50px;

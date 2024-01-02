@@ -73,6 +73,10 @@ nav{
     align-items: center;
 }
 
+.mobile .nav-list {
+    margin-top: 150px;
+}
+
 .nav-list a::after {
     content: '';
     display: block;

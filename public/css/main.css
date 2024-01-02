@@ -79,6 +79,10 @@ nav {
   align-items: center;
 }
 
+.mobile .nav-list {
+  margin-top: 150px;
+}
+
 .nav-list a::after {
   content: "";
   display: block;
@@ -304,6 +308,7 @@ nav ul.dropdown-list {
   background-size: cover;
   display: flex;
   height: 500px;
+  margin-top: 100px;
   align-items: center;
   justify-content: center;
 }
@@ -323,6 +328,7 @@ nav ul.dropdown-list {
 
 @media only screen and (min-width: 768px) {
   .home {
+    margin-top: 0;
     height: 800px;
   }
 
@@ -440,6 +446,7 @@ nav ul.dropdown-list {
   }
 }
 .sobre_mi {
+  margin-top: 2rem;
   position: relative;
 }
 
@@ -447,13 +454,9 @@ nav ul.dropdown-list {
   display: none;
 }
 
-.sobre_mi__container {
-  display: flex;
-  flex-direction: column;
-}
-
 .sobre_mi h1 {
   color: #151414;
+  width: 100%;
 }
 
 .sobre_mi p {
@@ -495,10 +498,6 @@ nav ul.dropdown-list {
 
   .sobre_mi__right {
     background: #FFFFFF;
-  }
-
-  .sobre_mi h1 {
-    color: #FFFFFF;
   }
 
   .sobre_mi p {
